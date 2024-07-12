@@ -1,0 +1,17 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(109, 206, 85);
+    color: white;
+    padding: 10px;
+    padding-left:10vw;
+    
+}
+
+

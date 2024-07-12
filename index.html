@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+    <link rel="stylesheet" href="./style.css"/>
+    
+    
+</head>
+
+<body id="body">
+
+    
+
+    <h1 id="head">Heading</h1>
+    <p id="para">Enter the text in input box and click respective button to change heading or paragraph or to add list items.</p>
+    <input id="inp" placeholder="Enter the text">
+    <br>
+    <br>
+    <div id="divbtn">
+        <button onclick="cngHt()">Change heading</button>
+        <button onclick="cngPt()">Change paragraph</button>
+        <button class="cssStyle" onclick="styleinp()">Style inp</button>
+        <button class="cssStyle" onclick="addBh()">Add border on heading</button>
+        <button class="cssStyle" onclick="addBp()">Add border on paragraph</button>
+        <button class="cssStyle" onclick="putBgH()">Put BG color on heading</button>
+        <button class="cssStyle" onclick="putBgP()">Put BG color on para</button>
+        <button class="cssStyle" onclick="btnStyle()">Style buttons</button>
+        <button onclick="addList()" id="btnul">Add unordered list</button>
+        <button id="cssBtn" onclick="addCSS()">Add whole CSS</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
